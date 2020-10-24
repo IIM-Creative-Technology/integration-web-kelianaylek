@@ -1,0 +1,648 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            width: calc(100% - 220px);
+            margin: 0 auto;
+        }
+        
+        header {
+            background-image: url("../images/backgroundHeader.png");
+            background-size: cover;
+            width: 100%;
+            color: #ffffff;
+            font-family: "Poppins";
+        }
+        
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 18px;
+            padding-top: 40px;
+        }
+        
+        header nav img {}
+        
+        header nav a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 0 10px 0 10px;
+        }
+        
+        header nav a:first-child {
+            border-bottom: 2px solid #fff
+        }
+        
+        header nav button {
+            border-radius: 22px;
+            background-color: #bf3676;
+            outline: none;
+            border: none;
+            color: #fff;
+            padding: 15px 26px 15px 26px;
+            margin-left: 10px;
+            font-size: 18px;
+        }
+        
+        .headerContent {
+            background-image: url("../images/header.png");
+            background-repeat: no-repeat;
+            background-position: right 120px;
+            padding: 250px 0 130px 150px;
+        }
+        
+        .headerContent .headerText {
+            width: 40%;
+        }
+        
+        .headerText h1 {
+            font-size: 46px;
+            font-weight: 800;
+        }
+        
+        .headerText p {
+            font-size: 16px;
+            padding: 34px 0 34px 0;
+        }
+        
+        .headerText button {
+            border-radius: 22px;
+            background-color: #bf3676;
+            outline: none;
+            border: none;
+            padding: 18px 20px;
+            font-size: 19.5px;
+            font-weight: 500;
+            color: #fff;
+        }
+        
+        header .downArrow {
+            text-align: center;
+            padding-bottom: 35px;
+        }
+        /* --------------------------------------- */
+        
+        article {
+            font-family: "Poppins";
+        }
+        
+        .introduction {
+            background-image: url("../images/background.png");
+            background-size: cover;
+            position: relative;
+        }
+        
+        .introduction h2,
+        .discover h2,
+        .blockBetsDetails h2 {
+            text-align: center;
+            color: #bf3676;
+            font-size: 40.5px;
+            font-weight: bold;
+            padding-top: 45px;
+            padding-bottom: 28px;
+        }
+        
+        .introduction hr,
+        .discover hr,
+        .blockBetsDetails hr {
+            height: 2px;
+            width: 248px;
+            background-color: #bf3676;
+            margin: 0 auto;
+            margin-bottom: 59px;
+            border: none;
+        }
+        
+        .introduction>p {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 500;
+            color: #222222;
+            width: 55%;
+            margin: 0 auto;
+        }
+        
+        .introduction .blockPossibilities {
+            padding-top: 94px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .introduction .blockPossibilities .possibilities {
+            display: flex;
+            flex-direction: column;
+            width: calc((100% - 38px - 77px)/2);
+        }
+        
+        .introduction .blockPossibilities .possibilities>div {
+            display: flex;
+            margin-bottom: 97px;
+            margin-right: 38px;
+        }
+        
+        .introduction .blockPossibilities .possibilities>div img {
+            padding-right: 30px;
+            margin-top: 20px;
+        }
+        
+        .introduction .blockPossibilities .possibilities>div h3 {
+            font-weight: 600;
+            font-size: 21px;
+        }
+        
+        .introduction .blockPossibilities .possibilities>div i {
+            color: #bf3676;
+            font-size: 11px;
+            margin-left: 13px;
+        }
+        
+        .introduction .blockPossibilities .possibilities>div>div:last-child div {
+            display: flex;
+            align-items: center;
+        }
+        
+        .introduction .blockPossibilities .possibilities>div p {
+            font-size: 16px;
+            font-weight: 500;
+            color: #222222;
+        }
+        
+        .rotatedText {
+            position: absolute;
+            top: 580px;
+            right: -140px;
+            transform: rotate(90deg);
+            width: 500px;
+            font-size: 8px;
+            color: #929292;
+        }
+        
+        .introduction>div:last-child {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 105px;
+        }
+        
+        .introduction button {
+            font-family: "Poppins";
+            font-size: 19px;
+            font-weight: 500;
+            color: #fff;
+            border-radius: 27.5px;
+            background-color: #bf3676;
+            border: none;
+            outline: none;
+            padding: 10px 20px;
+        }
+        /* ------------------------------------------ */
+        
+        .discover h2 {
+            text-align: left;
+        }
+        
+        .discover hr {
+            margin: 0;
+        }
+        
+        .slider {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 60px;
+            margin-bottom: 65px;
+        }
+        
+        .slider .sliderCard {
+            display: flex;
+            padding: 30px 25px;
+            border-radius: 10px;
+            box-shadow: 0.9px 10px 15.5px 0.5px rgba(98, 98, 98, 0.19);
+            background-color: #ffffff;
+        }
+        
+        .slider .lastSliderCard {
+            box-shadow: -9px 9px 15.5px -7.5px rgba(98, 98, 98, 0.19);
+        }
+        
+        .slider .sliderCard>div:first-child {
+            margin-right: 36px;
+        }
+        
+        .slider button {
+            font-size: 12px;
+            border-radius: 9px;
+            background-color: #d3c4f2;
+            outline: none;
+            border: none;
+            color: #fff;
+            padding: 4px 15px;
+            margin-right: 8px;
+        }
+        
+        .sliderCard div p:nth-child(2) {
+            font-size: 20.5px;
+            font-weight: 600;
+            color: #222222;
+        }
+        
+        .sliderCard div p:nth-child(3) {
+            font-size: 16px;
+            font-weight: 500;
+            color: #222222;
+        }
+        
+        .sliderCard>div>div p:last-child {
+            font-size: 16px;
+            font-weight: 300;
+            color: #747474;
+        }
+        
+        .sliderCard>div>div {
+            display: flex;
+            align-items: center;
+        }
+        
+        .slider .firstSliderCard div div img:first-child {
+            margin-right: -40px;
+        }
+        
+        .slider .sliderCardMobile {
+            display: none;
+        }
+        /* ------------------------------------------ */
+        
+        .blockBetsDetails {
+            background-image: url("../images/backgroundViolet.png");
+        }
+        
+        .blockBetsDetails h2,
+        .blockBetsDetails hr {
+            color: #fff;
+        }
+        
+        .blockBetsDetails hr {
+            background-color: #fff;
+            margin-bottom: 0;
+        }
+        
+        .betsDetails {
+            display: flex;
+            color: #fff;
+            background-image: url("../images/paris-personnalises.png");
+            /* background-size: contain; */
+            background-repeat: no-repeat;
+            padding: 102px 0 0 79px;
+            background-position: center 90px;
+            margin-bottom: 80px;
+        }
+        
+        .betsDetails>div:first-child {
+            margin-right: 110px;
+            width: 39%;
+        }
+        
+        .betsDetails>div:first-child>div {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+        
+        .betsDetails>div:first-child h4 {
+            font-size: 21px;
+            font-weight: 600;
+        }
+        
+        .betsDetails>div:first-child p {
+            font-size: 16px;
+            font-weight: 500;
+        }
+        
+        .betsDetails>div:first-child p span {
+            font-size: 12px;
+            font-weight: 300;
+        }
+        
+        .betsDetails>div:first-child button {
+            font-size: 16.5px;
+            font-weight: 600;
+            color: #2f2359;
+            border-radius: 10px;
+            background-color: #ffffff;
+            border: none;
+            outline: none;
+            margin-right: 20px;
+            padding: 0 20px;
+        }
+        
+        .betsDetails>div:last-child {
+            width: 45%;
+            margin-top: 52px;
+        }
+        
+        .betsDetails>div:last-child div {
+            display: flex;
+            margin-bottom: 22px;
+        }
+        
+        .betsDetails>div:last-child div {
+            display: flex;
+        }
+        
+        .betsDetails>div:last-child div button {
+            margin-right: 28px;
+            font-size: 30px;
+            font-weight: bold;
+            line-height: 0.83;
+            color: #2f2359;
+            outline: none;
+            border: none;
+            border-radius: 50px;
+            padding: 15px 18px;
+        }
+        
+        .blockBetsDetails .signUpBtn {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 74px;
+        }
+        
+        .signUpBtn button {
+            font-family: "Poppins";
+            font-size: 19px;
+            font-weight: 500;
+            color: #fff;
+            border-radius: 27.5px;
+            background-color: #bf3676;
+            border: none;
+            outline: none;
+            padding: 10px 20px;
+        }
+        /* ---------------------------------------------- */
+        
+        .interview {
+            display: flex;
+        }
+        
+        .interview .blockTextInterview {
+            width: calc(50% - 230px);
+            margin: 0 auto;
+            padding: 115px 0 115px 0;
+            background-image: url("../images/quote.png");
+            background-repeat: no-repeat;
+            background-position: right 100px;
+        }
+        
+        .interview>div>div {
+            display: flex;
+            align-items: center;
+        }
+        
+        .interview>div>div p:first-child {
+            font-size: 72px;
+            font-weight: 500;
+        }
+        
+        .interview>div>div p:last-child,
+        .interview>div>p {
+            font-size: 24px;
+            font-weight: 500;
+            color: #222;
+        }
+        
+        .interview>div>p {
+            margin-top: -20px;
+        }
+        
+        .interview p:last-child {
+            font-size: 14px;
+            color: #bbbbbb;
+            margin-top: 0px;
+        }
+        
+        .imageInterview {
+            background-image: url("../images/joueurs.png");
+            width: 50%;
+            background-repeat: no-repeat;
+        }
+        /* -------------------------------------------- */
+        
+        footer {
+            background-image: url("../images/background-footer.png");
+            background-repeat: no-repeat;
+            padding: 67px 0 0 0;
+            font-family: "Poppins";
+            color: #fff;
+        }
+        
+        .navFooter {
+            display: flex;
+            margin-top: 36px;
+            justify-content: space-between;
+            margin-bottom: 36px;
+        }
+        
+        .navFooter>div:first-child {
+            display: flex;
+        }
+        
+        .navFooter>div>div:first-child {
+            margin-right: 59px;
+        }
+        
+        .navFooter>div>div p {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        
+        .navFooter>div>div p:last-child {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+        
+        .navFooter>div:last-child {
+            display: flex;
+            align-items: flex-end;
+        }
+        
+        .navFooter hr {
+            opacity: 0.35;
+            background-color: #ffffff;
+            border: none;
+        }
+        
+        .textFooter {
+            font-size: 11px;
+            text-align: center;
+            color: #ffffff;
+            margin-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        header nav>div:first-child button {
+            display: none;
+        }
+        
+        @media screen and (max-width: 1224px) {
+            .container {
+                width: calc(100% - 40px);
+            }
+            header nav {
+                padding-top: 20px;
+                display: block;
+            }
+            header nav>div:first-child {
+                display: flex;
+                justify-content: space-between;
+            }
+            header nav>div:first-child button {
+                display: block;
+            }
+            header nav>div:last-child button {
+                display: none;
+            }
+            .headerContent {
+                background-image: none;
+                background-position: right 120px;
+                padding: 20px;
+            }
+            .headerContent .headerText {
+                width: 80%;
+                text-align: center;
+                margin: 0 auto;
+            }
+            .headerText h1 {
+                font-size: 30px;
+            }
+            .introduction h2,
+            .discover h2,
+            .blockBetsDetails h2 {
+                font-size: 26px;
+            }
+            .introduction .blockPossibilities .possibilities>div img {
+                display: none;
+            }
+            .introduction .blockPossibilities .possibilities {
+                width: 100%;
+                display: flex;
+            }
+            .rotatedText {
+                position: initial;
+                display: none;
+                transform: rotate(0deg);
+                font-size: 8px;
+                color: #929292;
+                text-align: center;
+                padding-bottom: 20px;
+                margin: 0 auto;
+            }
+            .introduction .blockPossibilities .possibilities>div {
+                margin-bottom: 15px;
+            }
+            .betsDetails {
+                display: block;
+                padding: 0;
+                padding-top: 20px;
+                margin-bottom: 0px;
+            }
+            .betsDetails>div:first-child {
+                margin-right: 0px;
+                width: 80%;
+                margin: 0 auto;
+            }
+            .betsDetails>div:last-child {
+                padding-top: 20px;
+                width: 80%;
+                margin: 0 auto;
+            }
+            .blockBetsDetails .signUpBtn {
+                padding-bottom: 20px;
+            }
+            .interview>div>div p:last-child,
+            .interview>div>p {
+                font-size: 16px;
+            }
+            .interview .blockTextInterview {
+                width: 40%;
+            }
+            .interview .blockTextInterview {
+                padding: 20px 0 20px 0;
+            }
+            footer {
+                padding: 20px 0 0 0;
+            }
+            .navFooter>div>div:first-child {
+                margin-right: 20px;
+            }
+            .navFooter {
+                display: block;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .navFooter>div>div p {
+                font-size: 16px;
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+            .navFooter>div:first-child {
+                padding-bottom: 10px;
+            }
+            .blockTextInterview>p:last-child {
+                display: none;
+            }
+            .introduction>div:last-child {
+                padding-bottom: 20px;
+            }
+            .interview>div>p {
+                margin-top: 0px;
+            }
+            .signUpBtn button {
+                font-size: 17px;
+                padding: 5px;
+            }
+            .slider {
+                display: block;
+            }
+            .slider .sliderCard {
+                margin-bottom: 20px;
+            }
+            .slider .lastSliderCard {
+                display: none;
+            }
+            .slider .sliderCardMobile {
+                display: flex;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            header nav button {
+                padding: 6px;
+                font-size: 16px;
+            }
+            header nav {
+                font-size: 14px;
+            }
+            header nav>div:last-child {
+                margin-top: 10px;
+            }
+            .betsDetails>div:first-child {
+                width: 95%;
+            }
+            .betsDetails>div:first-child h4 {
+                font-size: 16px;
+            }
+            .betsDetails>div:first-child button {
+                margin-right: 0px;
+                padding: 0 5px;
+            }
+            .betsDetails>div:last-child {
+                width: 95%;
+            }
+            .slider .sliderCard>div>img {
+                display: none;
+            }
+        }
